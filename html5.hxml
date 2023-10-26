@@ -1,0 +1,15 @@
+
+-cp src
+-main Main
+
+-lib haxeui-core
+-lib haxeui-html5
+--library thx.csv
+
+-D rapid_text_metrics
+-D component_resolution_verbose
+
+-debug
+-D source-map
+
+-js build/html5/Main.js

@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "msedge",
+      "request": "launch",
+      "name": "Launch Edge",
+      // relative path you compile your project to
+      "file": "build/html5/index.html",
+  }
+  ]
+}

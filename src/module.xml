@@ -1,0 +1,9 @@
+<module id="my-module">
+    <resources>
+        <resource path="assets" prefix="assets" />
+        <resource path="components" prefix="components" />
+    </resources>
+    <components>
+        <class package="components" loadAll="true" />
+    </components>
+</module>

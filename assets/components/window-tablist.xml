@@ -1,0 +1,6 @@
+<hbox width="100%" height="100%">
+    <!--
+    <label text="Windows:" verticalAlign="center" />
+    -->
+    <hbox id="openWindows_" width="100%" height="100%" style="spacing:0;" />
+</hbox>

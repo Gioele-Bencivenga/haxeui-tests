@@ -1,0 +1,15 @@
+<window id="about_window" title="About Window">
+    <window-title width="100%">
+    </window-title>
+    <box width="100%">
+        <label text="32px bold style" style="font-size: 32px;font-bold: true;" />
+        <label horizontalAlign="right" text="32px bordered style"
+            style="font-size: 32px;color:green;background-color:yellow;border:1px solid green" />
+    </box>
+    <window-footer width="100%">
+        <button id="button2" text="Print" />
+        <button id="btn_delete" text="Delete" />
+        <spacer width="100%" />
+        <button text="Action3" />
+    </window-footer>
+</window>

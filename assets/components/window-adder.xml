@@ -1,0 +1,118 @@
+<box>
+    <style>
+        .dropdown {
+        icon: none;
+        background-color: moccasin;
+        font-size: 18px;
+        }
+    </style>
+    <dropdown id="dpd_windows" text="+ Add" dropdownWidth="200" dropdownHeight="300" searchable="true"
+        searchPrompt="Find Page">
+        <data>
+            <item id="openMainWindow" text="Main Window" />
+            <item id="openAboutWindow" text="About Window" />
+            <item text="Third Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+            <item text="Another Window" />
+        </data>
+    </dropdown>
+</box>

@@ -22,21 +22,21 @@
     <hbox width="100%" height="100%">
         <tableview id="mainTable" virtual="true" styleName="classic-scrolls" width="100%" height="100%" contentWidth="100%">
             <header id="header1" width="100%">
-                <column id="col_id" width="100%">
+                <column id="Id" width="100%">
                     <vbox width="100%">
                         <label text="ID" />
                         <textfield id="idFilter" placeholder="Search by Id" text="" width="100%" />
                     </vbox>
                 </column>
-                <column id="col_product" width="100%" sortable="true">
+                <column id="Name" width="100%" sortable="true">
                     <vbox width="100%">
                         <label text="Product" />
                         <!--<textfield id="productFilter" placeholder="Search Product" text="" width="100%" /> -->
                     </vbox>
                 </column>
-                <column id="col_quantity" text="Quantity" width="100%" sortable="true" />
-                <column id="col_expiration" text="Expiration" width="100%" sortable="true" />
-                <column id="col_notes" width="100%">
+                <column id="Quantity" text="Quantity" width="100%" sortable="true" />
+                <column id="Expiration" text="Expiration" width="100%" sortable="true" />
+                <column id="Notes" width="100%">
                     <vbox width="100%">
                         <label text="Notes" />
                         <!--<textfield id="notesFilter" placeholder="Search Notes" text="" width="100%" /> -->
@@ -44,11 +44,11 @@
                 </column>
             </header>
 
-            <editable-item-renderer id="col_id" />
-            <editable-item-renderer id="col_product" />
-            <editable-item-renderer id="col_quantity" />
-            <editable-item-renderer id="col_expiration" />
-            <editable-item-renderer id="col_notes" />
+            <editable-item-renderer id="Id" />
+            <editable-item-renderer id="Name" />
+            <editable-item-renderer id="Quantity" />
+            <editable-item-renderer id="Expiration" />
+            <editable-item-renderer id="Notes" />
         </tableview>
     </hbox>
     <window-footer width="100%" style="padding: 3px;">

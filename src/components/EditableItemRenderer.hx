@@ -54,13 +54,14 @@ class EditableItemRenderer extends ItemRenderer {
 
 	/**
 	 * Function setting the label's text to the data found in the datasource, called every time a change is detected.
-	 * @param data the data that was changed (typed as the dataSource's type)
+	 * @param data the data that was changed (check it out, it's a product)
 	 */
 	private override function onDataChanged(data:Dynamic) {
 		super.onDataChanged(data);
 		if (data == null) {
 			return;
 		}
+		var product:Product = data;
 		/**
 		 * Ian: well, the reflect stuff is just setting values on a dynamic field, ie, the "data item"... if you had a typed datasource (new ArrayDataSource<MyObject>) then you wouldnt need that, its just about getting the data in and out of the item of the data source
 		 */

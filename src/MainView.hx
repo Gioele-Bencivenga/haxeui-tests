@@ -19,7 +19,7 @@ import haxe.ui.containers.windows.WindowManager;
 class MainView extends VBox {
 	public var winManInst:WindowManager;
 
-	var _dataBank:ArrayDataSource<String>;
+	var _dataBank:ArrayDataSource<Product>;
 
 	public function new() {
 		super();
@@ -56,6 +56,7 @@ class MainView extends VBox {
 
 		if (_dataBank != null) {
 			mainWindow.fillTable(_dataBank);
+			// mainWindow.mainTable.dataSource = _dataBank;
 		}
 
 		return mainWindow;
@@ -113,23 +114,11 @@ class MainView extends VBox {
 
 	private function storeData(_data:String) {
 		var decoded = Csv.decode(_data);
-		var dataSource = new ArrayDataSource<String>();
+		var dataSource = new ArrayDataSource<Product>();
 		for (row in decoded) {
-			dataSource.add(getText(row));
+			dataSource.add(getProduct(row));
 		}
 		_dataBank = dataSource;
-	}
-
-	private function getText(_row:Array<String>):Dynamic {
-		var d:Dynamic = {};
-
-		d.col_id = _row[0];
-		d.col_product = _row[1];
-		d.col_quantity = _row[2];
-		d.col_expiration = _row[3];
-		d.col_notes = _row[4];
-
-		return d;
 	}
 
 	private function getProduct(_row:Array<String>):Dynamic {

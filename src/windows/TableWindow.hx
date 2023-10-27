@@ -20,7 +20,7 @@ class TableWindow extends Window {
 		super();
 	}
 
-	public function fillTable(_data:ArrayDataSource<Product>) {
+	public function fillTable(_data:ArrayDataSource<String>) {
 		_tableView.dataSource = _data;
 	}
 
